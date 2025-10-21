@@ -17,9 +17,23 @@ Assign your new project a name:
 
 ![Add Project Dialog](images/project-add.png?classes=shadow,border "Add Project Dialog")
 
-You can assign key-label pairs to your projects. These will be inherited by the clusters and cluster nodes in this project. You can assign multiple key-label pairs to a project.
 
-After you click `Save`, the project will be created. If you click on it now, you will see options for adding clusters, managing project members, service accounts and SSH keys.
+
+### Select Allowed Operating Systems
+
+You can now select which operating systems are allowed to be used for machine deployments within this project. The list of available operating systems is determined by the administrator and depends on which OS types are supported for the chosen cloud provider. 
+
+The "Allowed Operating Systems" option enables you to limit or permit specific operating systems for clusters and machines in the project. This configuration controls which OS images can be selected when creating a machine deployment and can be set individually per project.
+
+For an up-to-date list of supported operating systems and their compatibility across various providers, refer to the [Operating System Compatibility Matrix]({{< ref "/operatingsystemmanager/compatibility/_index.en.md" >}}).
+
+
+### Assign Key-Label Pairs
+
+You can also assign key-label pairs to your projects. These labels will be inherited by the clusters and cluster nodes in this project. Multiple key-label pairs may be assigned to a project.
+
+After you click `Save`, the project will be created. If you click on it now, you will see options for adding clusters, managing project members, service accounts, and SSH keys.
+
 
 ### Delete a Project
 
